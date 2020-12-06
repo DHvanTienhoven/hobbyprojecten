@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: Roboto;
+    background-image: url(nebula.jpg);
+    color: white
+}
+
+.container{
+    position: relative;
+    top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center
+}
+
+input{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 16.5em;
+    background: #00A2E8;
+    color: black;
+    font-family: roboto; 
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    margin-top: 2em;
+    background: #FFAEC9;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-left: 26em;
+    padding: 0.5em
+}
+
+a{
+    margin-top: 2em;
+    text-decoration: none;
+    color: black;
+    background:  #FFAEC9;
+    padding: 0.5em;
+    margin-left: 21em
+}
+
+a:visited{
+    color: black;
+    text-decoration: none
+}
+
+.answer{
+    position: relative;
+    height: 3em;
+    width: 20em;
+    background: #BF6FFB;
+    color: black;
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 25px
+}
+
+.einde h1{
+    transform: scale(1.5);
+    transition-duration: 10s;
+}
+
+@media (max-width: 700px){
+.container{
+    width: 90vw;
+    top: 20vh
+}
+
+    .answer{
+        width: 80vw;
+        height: 2em;
+        padding-top: 0.75em
+    }
+
+    input{
+        width: 80vw;
+        font-size: 25px
+    }
+
+    button{
+        margin-left: 12em
+    }
+
+    a{
+        margin-left: 9em
+    }
+
+    .einde h1{
+        font-size:30px;
+        transform: rotate(360deg);
+        transition-duration: 5s;
+    }
+}

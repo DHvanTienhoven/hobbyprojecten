@@ -1,0 +1,5 @@
+#00A2E8 blauw
+roze #FFAEC9 (button)
+paars #BF6FFB 
+
+ik denk dat ik ga voor 'vindt locatie' en 'volgende missie' op de knoppen

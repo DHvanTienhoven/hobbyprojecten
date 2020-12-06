@@ -1,0 +1,206 @@
+@font-face {
+  font-family: IndieFlower;
+  src: url(IndieFlower-Regular.ttf);
+}
+
+* {
+  font-family: IndieFlower;
+  font-size: 30px;
+  color: white;
+}
+
+body {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+ul.nav {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav {
+  max-height: 90px;
+  overflow: hidden;
+}
+
+.nav__item {
+  margin: 0 auto;
+}
+
+.nav__item button {
+  margin: 1px;
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav__item--hamburger button {
+  background: black;
+  width: 90px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border: solid 2px #83f52c;
+  margin-bottom: 10px;
+}
+
+.nav__item--hamburger button i {
+  font-size: 40px;
+  color: #83f52c;
+}
+
+.nav__item--red button {
+  background-color: #FF0000;
+  border: solid 2px #a30000;
+}
+
+.nav__item--orange button {
+  background-color: #FF7F00;
+  border: solid 2px #a55200;
+}
+
+.nav__item--yellow button {
+  background-color: #FFFF00;
+  border: solid 2px #a0a000;
+  color: black;
+}
+
+.nav__item--green button {
+  background-color: #00FF00;
+  border: solid 2px #009400;
+  color: black;
+}
+
+.nav__item--blue button {
+  background-color: #0000FF;
+  border: solid 2px #000086;
+}
+
+.nav__item--indigo button {
+  background-color: #2E2B5F;
+  border: solid 2px #17153a;
+}
+
+.nav__item--violet button {
+  background-color: #8B00FF;
+  border: solid 2px #480083;
+}
+
+.visibleMenu {
+  max-height: 800px;
+  -webkit-transition: 0.8s ease-in;
+  transition: 0.8s ease-in;
+}
+
+.default-background {
+  Background-color: black;
+}
+
+.red-background {
+  background-color: #FF0000;
+}
+
+.orange-background {
+  background: #FF7F00;
+}
+
+.yellow-background {
+  background: #FFFF00;
+}
+
+.green-background {
+  background: #00FF00;
+}
+
+.blue-background {
+  background: #0000FF;
+}
+
+.indigo-background {
+  background: #2E2B5F;
+}
+
+.violet-background {
+  background: #8B00FF;
+}
+
+.img {
+  max-width: 150px;
+}
+
+#star {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
+#unicorn {
+  position: fixed;
+  bottom: 300px;
+  left: 42%;
+}
+
+#rainbow {
+  position: fixed;
+  top: 100px;
+  right: 40px;
+}
+
+#smiley {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+}
+
+.activeSmiley {
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+  -webkit-transition: 1s cubic-bezier(0.07, 1.6, 0.48, -1.75);
+  transition: 1s cubic-bezier(0.07, 1.6, 0.48, -1.75);
+}
+
+.activeUnicorn {
+  -webkit-transform: translate(-600px);
+          transform: translate(-600px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.activeRainbow {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.activeStar {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 25px;
+  }
+  .img {
+    max-width: 75px;
+  }
+  #rainbow {
+    right: 30px;
+    top: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

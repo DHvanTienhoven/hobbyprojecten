@@ -1,0 +1,187 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url(IndieFlower-Regular.ttf);
+}
+
+*{
+    font-family: IndieFlower;
+    font-size: 30px;
+    color: white;
+}
+
+body{
+    transition: .8s
+}
+
+
+ul.nav{
+    padding-inline-start: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    max-height: 90px;
+    overflow: hidden;
+    &__item{
+        margin: 0 auto;
+        & button{
+            margin: 1px;
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        &--hamburger button{
+            background: black;
+            width: 90px;
+            padding-bottom: 10px;
+            padding-top:20px;
+            border: solid 2px #83f52c;
+            margin-bottom:10px;
+            & i{
+                font-size: 40px;
+                color: #83f52c;
+            }
+
+        }
+        &--red button{
+            background-color: #FF0000;
+            border: solid 2px #a30000;
+        }
+        &--orange button{
+            background-color: #FF7F00;
+            border: solid 2px #a55200;
+        }
+        &--yellow button{
+            background-color: #FFFF00;
+            border: solid 2px #a0a000;
+            color: black;
+        }
+        &--green button{
+            background-color: #00FF00;
+            border: solid 2px #009400;
+            color: black;
+        }
+        &--blue button{
+            background-color: #0000FF;
+            border: solid 2px #000086;
+        }
+        &--indigo button{
+            background-color: #2E2B5F;
+            border: solid 2px #17153a;
+        }
+        &--violet button{
+            background-color: #8B00FF;
+            border: solid 2px #480083;
+        }
+    }
+}
+
+.visibleMenu{
+    max-height: 800px;
+    transition: 0.8s ease-in;
+}
+
+.default-background{
+    Background-color: black
+}
+
+.red-background{
+    background-color: #FF0000
+}
+
+.orange-background{
+    background: #FF7F00
+}
+
+.yellow-background{
+    background: #FFFF00
+}
+
+.green-background{
+    background: #00FF00;
+}
+
+.blue-background{
+    background: #0000FF
+}
+
+.indigo-background{
+    background: #2E2B5F
+}
+
+.violet-background{
+    background: #8B00FF
+}
+
+.img{
+    max-width: 150px
+}
+
+#star{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    // &:active img{
+    //     transform: scale(1.5);
+    //     transition: 1s
+    // }
+}
+
+#unicorn{
+    position: fixed;
+    bottom: 300px;
+    left: 42%;
+
+}
+
+#rainbow{
+    position: fixed;
+    top: 100px;
+    right: 40px;
+
+}
+
+#smiley{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+.activeSmiley{
+    transform: rotate(80deg);
+    transition: 1s cubic-bezier(.07,1.6,.48,-1.75)
+}
+
+.activeUnicorn{
+    transform: translate(-900px);
+    transition: 1.4s
+}
+
+.activeRainbow{
+    transform: rotate(360deg);
+    transition: 1s
+}
+
+.activeStar{
+    transform: scale(1.8);
+    transition: 1s
+}
+
+@media(max-width: 400px){
+    *{
+    font-size: 25px
+    }
+
+    .img{
+        max-width: 75px
+    }
+
+    #rainbow{
+        right: 30px;
+        top: 50px
+    }
+}
