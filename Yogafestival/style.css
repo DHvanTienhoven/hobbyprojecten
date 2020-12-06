@@ -3,18 +3,23 @@
     src: url(Caveat-Medium.ttf);
 }
 
+html{
+    height: 100%
+}
+
 body {
-    height: 150vh;
-    background-image: linear-gradient(#000b5b 15%, #460e7a 55%, #6a03ab 100%);
-    color: #92bdc7;
-    text-align: center;
-    font-family: caveat;
+    background-image: linear-gradient(#000b5b 15%, #460e7a 70%, #6a03ab 100%);
+    background-color: #6a03ab;
+    background-repeat: no-repeat;
+
+    
 }
 
 *{
     color: #92bdc7;
     text-align: center;
     font-family: caveat;
+    color: #92bdc7;
 }
 
 .container{
@@ -39,6 +44,7 @@ p{
     font-size: 18px;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 3em;
     position: absolute;
     top: 450px
 }
