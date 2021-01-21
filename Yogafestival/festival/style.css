@@ -84,7 +84,12 @@ main nav {
 }
 
 table {
-    border-spacing: 25px
+    border-spacing: 25px;
+    
+}
+
+table p{
+    margin-block-start: 0.5em
 }
 
 
