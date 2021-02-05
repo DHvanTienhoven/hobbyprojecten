@@ -16,7 +16,6 @@ const createAnswer = (newTitle, coordinates, nextPage) => {
     container.appendChild(newLink)
 }
 
-
 const completeFirstMission = button.addEventListener(`click`, () => {
     const inputValue = document.querySelector(`#first-answer`).value;
     if (inputValue.toLowerCase() === `dolfie`) {
