@@ -19,7 +19,6 @@ hamburgerButton.addEventListener("click", ()=>{
     unicorn.classList.add("activeUnicorn")
 })
 
-
 redButton.addEventListener("click", ()=>{
     background.className="red-background";
     menu.classList.remove("visibleMenu");
