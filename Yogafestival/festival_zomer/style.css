@@ -1,0 +1,196 @@
+@font-face {
+    font-family: caveat;
+    src: url(Caveat-Medium.ttf);
+}
+
+@font-face {
+    font-family: titillium;
+    src: url(TitilliumWeb-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(#e9897e 15%, #FDAC53 70%, #F5DF4D 100%);
+    background-color: #F5DF4D;
+    background-repeat: no-repeat;
+    color: #324562;
+    font-family: titillium;
+    font-size: 18px
+}
+
+header {
+    font-family: caveat;
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 2em
+}
+
+h1 {
+    font-size: 55px;
+    margin-block-end: 0px;
+    margin-block-start: 0.5em;
+}
+
+h4 {
+    font-size: 26px
+}
+
+h3 {
+    font-size: 40px;
+    font-family: caveat;
+    text-align: center;
+}
+
+b {
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto
+}
+
+nav a {
+    color: #FDAC53;
+    background-color: #324562;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+main nav {
+    margin-bottom: 5em
+}
+
+.channels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em
+}
+
+table {
+    border-spacing: 25px;
+    
+}
+
+table p{
+    margin-block-start: 0.5em
+}
+
+
+td {
+    vertical-align: baseline;
+}
+
+td:first-child {
+    font-size: 22px
+}
+
+td:nth-child(3) {
+    min-width: 180px;
+}
+
+main {
+    width: 60%;
+    margin: 4em auto
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welkom {
+    margin-right: 2em
+}
+
+.rooster {
+    max-width: 60vw;
+}
+
+.logo{
+    width: 400px
+}
+
+@media(max-width: 1400px){
+    main{
+        width: 80%
+    }
+    .rooster{
+        max-width: 80vw
+    }
+}
+
+@media(max-width:900px){
+    h1{
+        font-size: 34px
+    }
+    h4{
+        font-size: 22px
+    }
+    h3{
+        font-size: 28px
+    }
+    body{
+        font-size: 14px
+    }
+    b{
+        font-size: 18px
+    }
+    td:first-child {
+        font-size: 18px
+    }
+    table{
+        border-spacing: 10px
+    }
+    td:nth-child(3) {
+        min-width: 80px
+    }
+    td:nth-child(3) b{
+        font-size: 16px
+    }
+    nav a{
+        font-size: 18px;
+        padding: 5px
+    }
+    nav{
+        width: 90vw
+    }
+    table{
+        transform: translate(-15px);
+        width: 110%
+    }
+    main{
+        width: 90vw
+    }
+    .rooster{
+        width: 90vw
+    }
+    .home{
+        display: block
+    }
+    .rooster{
+        max-width: 90vw
+    }
+    .channels{
+        font-size: 11px
+    }
+    .logo{
+        width: 90vw
+    }
+}
