@@ -10,7 +10,7 @@
 
 body {
     background-image: linear-gradient(#e9897e 15%, #FDAC53 70%, #f6e572 100%);
-    background-color: #F5DF4D;
+    background-color: #f6e572;
     background-repeat: no-repeat;
     color: #223147;
     font-family: titillium;
@@ -68,8 +68,6 @@ nav a {
     font-size: 20px
 }
 
-/*#324562
-*/
 nav a:hover {
     text-decoration: none;
 }
