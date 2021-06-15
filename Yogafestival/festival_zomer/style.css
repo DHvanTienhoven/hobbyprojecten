@@ -9,10 +9,10 @@
 }
 
 body {
-    background-image: linear-gradient(#e9897e 15%, #FDAC53 70%, #F5DF4D 100%);
+    background-image: linear-gradient(#e9897e 15%, #FDAC53 70%, #f6e572 100%);
     background-color: #F5DF4D;
     background-repeat: no-repeat;
-    color: #324562;
+    color: #223147;
     font-family: titillium;
     font-size: 18px
 }
@@ -62,12 +62,14 @@ nav {
 
 nav a {
     color: #FDAC53;
-    background-color: #324562;
+    background-color: #223147;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 20px
 }
 
+/*#324562
+*/
 nav a:hover {
     text-decoration: none;
 }
